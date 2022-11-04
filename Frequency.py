@@ -1,4 +1,4 @@
-def printChar(arr, Len):
+def printCha(arr, Len):
  
  
     occ = {}
@@ -10,7 +10,7 @@ def printChar(arr, Len):
         else:
             occ[arr[i]] = 1
   
-   
+ 
     size = len(occ)
 
     while (size > 0):
@@ -33,4 +33,4 @@ Str =input("please enter a string ")
 Len = len(Str)
  
  
-printChar(list(Str), Len)
+printCha(list(Str), Len)
